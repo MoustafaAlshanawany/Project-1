@@ -1,0 +1,490 @@
+/* Start Section1 */
+.section1 {
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
+
+.section1 .navbar {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(174deg, black 70%, white);
+    overflow: auto;
+}
+
+.section1 .navbar ul {
+    list-style-type: none;
+}
+
+.section1 .navbar ul li {
+    color: aqua;
+    font-size: 20px;
+}
+
+.section1 .navbar ul li a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.section1 .navbar ul li .eslam {
+    color: aqua;
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+.section1 .navbar ul .left {
+    float: left;
+    padding: 15px 10px;
+}
+
+.section1 .navbar ul .right1 {
+    float: right;
+    padding: 10px 10px;
+    margin: 10px;
+    border: 1px solid green;
+    background-color: transparent;
+    color: green;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+.section1 .navbar ul .right1:hover {
+    background-color: green;
+    color: white;
+}
+
+.section1 .navbar ul .right2 {
+    float: right;
+    padding: 10px 10px;
+    margin: 10px;
+    border: 1px solid blue;
+    background-color: transparent;
+    color: blue;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+.section1 .navbar ul .right2:hover {
+    background-color: blue;
+    color: white;
+}
+
+.section1 .slider1 {
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    background-image: url(../images/img1.jpg);
+    background-size: 100% 100%;
+    animation-name: changebackground;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changebackground {
+    25% {
+        background-image: url(../images/img1.jpg);
+    }
+
+    50% {
+        background-image: url(../images/img2.jpg);
+
+    }
+
+    75% {
+        background-image: url(../images/img1.jpg);
+
+    }
+}
+
+/*  Start Media section1 */
+/* media tablet */
+@media(max-width:768px) {
+    .section1 .navbar ul li {
+        font-size: 15px;
+    }
+
+    .section1 .navbar ul li .eslam {
+        font-size: 20px;
+    }
+}
+
+/*  Start Media section1 */
+
+@media(max-width:425px) {
+    .section1 .navbar ul .left {
+        float: left;
+        padding: 2px 9px;
+    }
+
+    .section1 .navbar ul li .eslam {
+        color: aqua;
+        font-size: 15px;
+    }
+
+    .section1 .navbar ul li {
+        font-size: 10px;
+    }
+
+    .section1 .navbar ul .right2 {
+        padding: 2px 6px;
+    }
+
+    .section1 .navbar ul .right1 {
+        padding: 2px 6px;
+    }
+}
+
+/*  End Section1 */
+/*  Start section2 */
+
+.section2 {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    margin-top: 100px;
+    padding: 1px 0px;
+}
+
+.section2 .heading {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(121, 82, 158);
+    text-align: center;
+    margin: 10px auto;
+
+}
+
+.section2 .line1 {
+    width: 50%;
+    height: 5px;
+    background-image: linear-gradient(to right, white, rgb(121, 82, 158), white);
+    margin: auto;
+    border-radius: 50%;
+
+}
+
+.section2 .line2 {
+    width: 40%;
+    border-top: 5px dashed;
+    color: rgb(121, 82, 158);
+    margin: 15px auto;
+
+}
+
+.section2 .line3 {
+    width: 30%;
+    border-top: 3px dashed;
+    color: rgb(121, 82, 158);
+    margin: 15px auto;
+}
+
+.section2 .maindiv {
+    width: 100%;
+    height: 79.5%;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.section2 .maindiv .div1 {
+    width: 30%;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.section2 .maindiv .div2 {
+    width: 70%;
+    height: 100%;
+
+}
+
+.section2 .maindiv .div1 img {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.section2 .maindiv .div2 .item {
+    width: 100%;
+    height: 30%;
+
+}
+
+.section2 .maindiv .div2 .h {
+    color: blueviolet;
+    font-size: 30px;
+    text-align: center;
+}
+
+.section2 .maindiv .div2 p {
+    color: white;
+    padding: 10px;
+}
+
+/*  end section2 */
+
+/* start section3 */
+
+.section3 {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.section3 .heading3 .h1galary {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(121, 82, 158);
+    text-align: center;
+    margin: 10px auto;
+}
+
+.section3 .line1 {
+    width: 50%;
+    height: 5px;
+    background-image: linear-gradient(to right, white, rgb(121, 82, 158), white);
+    margin: auto;
+    border-radius: 50%;
+}
+
+.section3 .line2 {
+    width: 40%;
+    border-top: 5px dashed;
+    color: rgb(121, 82, 158);
+    margin: 15px auto;
+
+}
+
+.section3 .line3 {
+    width: 30%;
+    border-top: 3px dashed;
+    color: rgb(121, 82, 158);
+    margin: 15px auto;
+}
+
+.section3 .item {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    border-bottom: 3px solid rgb(114, 106, 106);
+
+}
+
+.section3 .item ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section3 .item ul li {
+    background-color: aqua;
+    padding: 10px 15px;
+    border-radius: 20px;
+
+}
+
+.section3 .catogry {
+    width: 80%;
+    height: 69%;
+    margin: auto;
+    margin-top: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.section3 .catogry .item {
+    width: 26%;
+    height: 30vh;
+}
+
+.section3 .catogry .item img {
+    width: 100%;
+    height: 100%;
+
+}
+
+/* end section3 */
+/* _______________________________________________________________________________________________________________________________________ */
+
+
+/* start section4 */
+
+.section4 {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.section4 .heading4 h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(121, 82, 158);
+    text-align: center;
+    margin: 10px auto;
+}
+
+.section4 .line1 {
+    width: 50%;
+    height: 5px;
+    background-image: linear-gradient(to right, white, rgb(121, 82, 158), white);
+    margin: auto;
+    border-radius: 50%;
+}
+
+.section4 .line2 {
+    width: 40%;
+    border-top: 5px dashed;
+    color: rgb(121, 82, 158);
+    margin: 15px auto;
+
+}
+
+.section4 .line3 {
+    width: 30%;
+    border-top: 3px dashed;
+    color: rgb(121, 82, 158);
+    margin: 15px auto;
+}
+
+.section4 .data {
+    width: 100%;
+    height: 85%;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px;
+}
+
+.section4 .data .input {
+    width: 50%;
+    height: 100%;
+    background-color: black;
+
+}
+
+.section4 .data .map {
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+    padding: 1px 0px;
+}
+
+.section4 .data .input .maindata {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.maindata .email{
+    width: 50%;
+    /* background-color: red; */
+    height: 100px;
+}
+
+.section4 .order {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(121, 82, 158);
+    text-align: center;
+    margin: 10px auto;
+
+}
+
+.section4 .data .input .email h1 {
+    padding-left: 135px;
+    color: blueviolet;
+    font-size: 15px;
+
+}
+
+.section4 .data .input .email .input1 {
+    width: 90%;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.section4 .data button{
+    width: 80%;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 60px;
+
+}
+
+/* end section4 */
+
+/* ____________________________________________________________Start Section5 _________________________________________________ */
+
+.section5{
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section5 .sec5{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section5 .about{
+    width: 30%;
+    color: white;
+}
+.section5 .about h1{
+    font-size: 50px;
+}
+.section5 .Categories{
+    width: 30%;
+    color: white;
+}
+ .section5 .Categories h1{
+    font-size: 50px;
+ }
+
+ .section5 .quicklinks{
+    width: 30%;
+    color: white;
+ }
+ .section5 .quicklinks h1{
+    font-size: 50px;
+    color: white;
+ }
+ .section5 .line6{
+    width: 100%;
+    height: 5px;
+    background-image: linear-gradient(to right, white, rgb(121, 82, 158), white);
+    margin: auto;
+    border-radius: 50%;
+ }
+ .section5  .sec5 .icons{
+    text-align: end;
+margin-right: 50px;
+ }
+ .section5  .sec5 .icons i{
+    padding: 15px ;
+ }
+ .pargraph{
+    color: white;
+    padding-left: 50px;
+ }
+ 
+ 
+ 
+
+
+/* ____________________________________________________________End Section5 ___________________________________________________ */
